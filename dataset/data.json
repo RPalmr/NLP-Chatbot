@@ -1,0 +1,28 @@
+{"intents": [
+    {"tag": "greeting",
+     "patterns": ["Hello", "How's it going", "Anyone around?", "Hey there", "Good to see you", "What's happening"],
+     "responses": ["Hello! How can I assist you today?"],
+     "context_set": ""
+    },
+    {"tag": "goodbye",
+     "patterns": ["Goodbye", "Catch you later", "See you around", "I'm off", "Wishing you a great day"],
+     "responses": ["Take care, I hope I've been helpful! :)"],
+     "context_set": ""
+    },
+    {"tag": "identity",
+     "patterns": ["What's your identity?", "What exactly are you", ""],
+     "responses": ["I am an AI Chatbot designed for O2i. My role involves engaging in conversations with you and providing information based on your queries."], 
+         "context_set": ""
+    },
+    {"tag": "information",
+     "patterns": ["Tell me about Oxygen to Innovation", "What does Oxygen to Innovation do", "Can you explain the company's purpose?"],
+     "responses": ["I am an AI Chatbot. My purpose is to converse with you by analyzing your questions and providing information. I am programmable."], 
+         "context_set": ""
+    },
+    {"tag": "time",
+     "patterns": ["What are your operating hours?", "When are you available?"],
+     "responses": ["The office space is open for visits and meetings from 9 AM to 6 PM"], 
+         "context_set": ""
+    }
+]
+}
