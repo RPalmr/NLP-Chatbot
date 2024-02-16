@@ -4,7 +4,7 @@ An NLP based Chatbot over a simple fully connected neural network architecture u
 
 ## Prerequisites
 
-Run `pip install #library#` in your terminal to install all required libraries
+Run `pip install library` in your terminal to install all required libraries
 
 ## Dataset
 
